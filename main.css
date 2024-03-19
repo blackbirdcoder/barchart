@@ -1,0 +1,54 @@
+.page {
+    font-family: monospace;
+    font-size: 30px;
+    background: rgb(23, 8, 44);
+    background: -moz-linear-gradient(
+        90deg,
+        rgba(23, 8, 44, 1) 0%,
+        rgba(50, 53, 88, 1) 66%,
+        rgba(62, 55, 133, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        90deg,
+        rgba(23, 8, 44, 1) 0%,
+        rgba(50, 53, 88, 1) 66%,
+        rgba(62, 55, 133, 1) 100%
+    );
+    background: linear-gradient(
+        90deg,
+        rgba(23, 8, 44, 1) 0%,
+        rgba(50, 53, 88, 1) 66%,
+        rgba(62, 55, 133, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#17082c",endColorstr="#3e3785",GradientType=1);
+    color: #e0aa07;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.file {
+    font-family: monospace;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.file::file-selector-button {
+    cursor: pointer;
+    color: #833c27;
+    border: 0;
+    padding: 5px;
+}
+
+.result > div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.wrap {
+    display: flex;
+}
